@@ -1,0 +1,31 @@
+body {
+    background: grey;
+}
+
+.container { 
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+} 
+
+.contents {
+    width: 25%;
+    border: 1px solid black;
+}
+
+.contents > a {
+    text-decoration: none;
+    color: black;
+}
+
+.contents > a:hover {
+    color: white;
+}
+
+
+article {
+    text-align: center;
+    padding-top: 50px;
+
+}
+
