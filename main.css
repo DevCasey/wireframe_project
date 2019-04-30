@@ -3,8 +3,7 @@ body {
 }
 
 .container { 
-    display: inline-flex;
-    flex-direction: row;
+    float: right;
     
 } 
 
