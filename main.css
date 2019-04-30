@@ -3,14 +3,22 @@ body {
 }
 
 .container { 
-    display: flex;
+    display: inline-flex;
     flex-direction: row;
-    justify-content: flex-end;
+    
 } 
 
 .contents {
-    width: 25%;
+    /* width: 25%; */
     border: 1px solid black;
+}
+
+.mid_container {
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 3fr 1fr 2fr;
+    grid-template-rows: 2fr 1fr;
+
 }
 
 .contents > a {
@@ -27,5 +35,13 @@ article {
     text-align: center;
     padding-top: 50px;
 
+}
+
+.mid_container > div:nth-child(odd) {
+    background: #ddd;
+}
+
+.mid_container > div:nth-child(even) {
+    background: #abc
 }
 
